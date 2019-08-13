@@ -3,10 +3,22 @@
   "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
+  "description": "Nova Bridge for React",
+  "author": "Felipe Guizar Diaz <felipegaiacharly@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ara-framework/nova-react-bridge.git"
+  },
   "scripts": {
     "prepublish": "npm run build",
     "build": "babel src -d lib"
   },
+  "keywords": [
+    "react",
+    "hypernova",
+    "nova",
+    "bridge"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
