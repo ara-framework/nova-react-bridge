@@ -47,7 +47,7 @@ The `Nova` component emits an custom event called `NovaMount` on the `document` 
 ```js
 import { renderClient } from 'hypernova-redom'
 
-document.addEventListener('NovaMounted', (event) => {
+document.addEventListener('NovaMount', (event) => {
   const { detail: { name, id } } = event
   if (name === 'NavBar') {
     return renderClient(name, NavBar, id)
