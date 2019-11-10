@@ -20,6 +20,15 @@ class Nova extends Component {
     }
   }
 
+  componentDidUpdate() {
+    if (window !== 'undefined') {
+      const id = this.placeholder.current.getAttribute('data-hypernova-id');
+      const { name } = this.props;
+      const customEvent = new CustomEvent('NovaMount', { detail: { id, name } });
+      document.dispatchEvent(customEvent);
+    }
+  }
+
   render() {
     const { name, data } = this.props;
     return (
