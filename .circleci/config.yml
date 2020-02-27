@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10.16
+      - image: circleci/node:10.19
 
     working_directory: ~/nova-react-bridge
 
@@ -37,7 +37,7 @@ jobs:
   publish:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10.16
+      - image: circleci/node:10.19
     
     working_directory: ~/nova-react-bridge
 
