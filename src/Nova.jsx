@@ -52,7 +52,11 @@ class Nova extends Component {
 
 Nova.propTypes = {
   name: PropTypes.string.isRequired,
-  data: PropTypes.shape({}).isRequired,
+  data: PropTypes.shape({}),
+};
+
+Nova.defaultProps = {
+  data: {},
 };
 
 export default Nova;
