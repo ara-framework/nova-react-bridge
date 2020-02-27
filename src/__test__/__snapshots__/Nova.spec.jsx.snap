@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nova emit NovaMount when component is mount 1`] = `
+Object {
+  "id": "uuid",
+  "name": "Example",
+}
+`;
+
+exports[`Nova render placeholder with default data correctly 1`] = `"<div data-hypernova-key=\\"Example\\" data-hypernova-id=\\"uuid\\"></div><script type=\\"application/json\\" data-hypernova-key=\\"Example\\" data-hypernova-id=\\"uuid\\"><!--{}--></script>"`;
+
+exports[`Nova render placeholder with script tag correctly 1`] = `"<div data-hypernova-key=\\"Example\\" data-hypernova-id=\\"uuid\\"></div><script type=\\"application/json\\" data-hypernova-key=\\"Example\\" data-hypernova-id=\\"uuid\\"><!--{\\"title\\":\\"Ara\\"}--></script>"`;
