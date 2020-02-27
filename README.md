@@ -10,9 +10,9 @@ Rendered placeholder:
 
 ```
 
-On **Client-Side Rendering** the placeholder is where the component is going to be mounted or hydrated depending of the framework or library.
+On **Client-Side Rendering** the placeholder is where the component is going to be mounted or hydrated depending on the framework or library.
 
-On **Server-Side Rendering** the placeholder is used by [Nova Proxy](https://github.com/ara-framework/nova-proxy) or [Nova Static](https://github.com/ara-framework/nova-static) to Server-Side Include the html rendered by [Hypernova](https://github.com/airbnb/hypernova).
+On **Server-Side Rendering** the placeholder is used by [Nova Proxy](https://github.com/ara-framework/nova-proxy) or [Nova Static](https://github.com/ara-framework/nova-static) to Server-Side Include the HTML rendered by [Hypernova](https://github.com/airbnb/hypernova).
 
 ## Install
 
@@ -42,7 +42,7 @@ const Page = () => (
 
 ### Mounting Hypernova Client Component
 
-The `Nova` component emits an custom event called `NovaMount` on the `document` when the React componend is mounted. The event needs to be listen by the Hypernova's client script in order to mount the view when the placeholders is ready.
+The `Nova` component emits a custom event called `NovaMount` on the `document` when the React component is mounted. The event needs to be listened by the Hypernova's client script in order to mount the view when the placeholder is ready.
 
 ```js
 import { renderClient } from 'hypernova-redom'
