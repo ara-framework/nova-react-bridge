@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10.19
+      - image: circleci/node:12.18.3
 
     working_directory: ~/nova-react-bridge
 
@@ -33,12 +33,12 @@ jobs:
 
       # run tests
       - run: yarn test
-  
+
   publish:
     docker:
       # specify the version you desire here
-      - image: circleci/node:10.19
-    
+      - image: circleci/node:12.18.3
+
     working_directory: ~/nova-react-bridge
 
     steps:
