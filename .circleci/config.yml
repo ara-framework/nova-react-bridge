@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:12.18.3
+      - image: circleci/node:16.15.0
 
     working_directory: ~/nova-react-bridge
 
