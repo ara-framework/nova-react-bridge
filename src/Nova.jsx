@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { v4 } from 'uuid';
 
-const { window, CustomEvent, document } = global;
+const { window, CustomEvent, document } = globalThis;
 
 class Nova extends Component {
   constructor(props) {
