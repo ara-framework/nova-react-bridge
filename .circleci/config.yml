@@ -37,7 +37,7 @@ jobs:
   publish:
     docker:
       # specify the version you desire here
-      - image: circleci/node:12.18.3
+      - image: cimg/node:16.18.1
 
     working_directory: ~/nova-react-bridge
 
